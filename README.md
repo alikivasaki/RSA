@@ -37,7 +37,7 @@ Follow the steps below: </br>
 `git clone git@github.com:progintro/hw1-alikivasaki.git`
 3) Go to hw1-alikivasaki/rsa/src where you can find the source file rsa.c
 4) Compile the source file with the command: </br>
-`gcc -O3 -Wall -Wextra -Werror -pedantic -o rsa rsa.c`
+`make`
 5) Run the file as: </br>
 i) `echo m | ./rsa enc|dec e d p q` or </br>
 ii) `./rsa enc|dec e d p q` and then enter your message
